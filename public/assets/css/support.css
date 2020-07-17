@@ -1,0 +1,384 @@
+body .terms {
+  background: #F2EBFB;
+  padding-bottom: 55px;
+}
+body #top {
+  background: url("../img/support-bg.png") center center;
+  background-size: cover;
+  padding: 33px 83px 14px 87px;
+}
+body #top .header-row nav {
+  align-items: unset;
+}
+body #help {
+  padding-top: 104px;
+  background: #F2EBFB;
+  padding-bottom: 80px;
+}
+body #help .container .row-help #helper .title {
+  font-family: Ubuntu, sans-serif;
+  margin-top: 56px;
+  margin-bottom: 26px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 130%;
+  /* identical to box height, or 47px */
+  letter-spacing: -0.02em;
+  color: #1B252E;
+}
+body #help .container .row-help #helper .form {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 65px 64px 65px 67px;
+  max-width: 768px;
+}
+body #help .container .row-help #helper .form #send-form input {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  letter-spacing: -0.02em;
+  color: #101826;
+}
+body #help .container .row-help #helper .form #send-form .line-input {
+  display: flex;
+  justify-content: space-between;
+}
+body #help .container .row-help #helper .form #send-form .line-input .name {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+}
+body #help .container .row-help #helper .form #send-form .line-input .name label {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 148%;
+  /* or 19px */
+  letter-spacing: -0.02em;
+  color: #7189BD;
+}
+body #help .container .row-help #helper .form #send-form .line-input .name #regname {
+  width: 100%;
+  padding: 10px 5px 10px 49px;
+  background: #E9EFF4 url(../img/name.png) no-repeat 13px 13px;
+  background-size: auto 40%;
+  max-width: 303px;
+  border: 1px solid #DAE7F2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+body #help .container .row-help #helper .form #send-form .line-input .email {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+}
+body #help .container .row-help #helper .form #send-form .line-input .email label {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 148%;
+  /* or 19px */
+  letter-spacing: -0.02em;
+  color: #7189BD;
+}
+body #help .container .row-help #helper .form #send-form .line-input .email #regemail {
+  width: 100%;
+  padding: 10px 5px 10px 49px;
+  background: #E9EFF4 url(../img/mail.png) no-repeat 13px 13px;
+  background-size: auto 40%;
+  max-width: 303px;
+  border: 1px solid #DAE7F2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+body #help .container .row-help #helper .form #send-form .area {
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+body #help .container .row-help #helper .form #send-form .area label {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 148%;
+  /* or 19px */
+  letter-spacing: -0.02em;
+  color: #7189BD;
+}
+body #help .container .row-help #helper .form #send-form .area #regtext {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  letter-spacing: -0.02em;
+  color: #101826;
+  padding: 15px;
+  border: 1px solid #DAE7F2;
+  background: #E9EFF4;
+  width: 100%;
+  resize: none;
+  height: 169px;
+  border-radius: 5px;
+}
+body #help .container .row-help #helper .form #send-form .forbidden {
+  display: flex;
+  justify-content: space-between;
+}
+body #help .container .row-help #helper .form #send-form .forbidden .text {
+  max-width: 303px;
+  padding-top: 7px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 148%;
+  /* or 19px */
+  color: #7189BD;
+}
+body #help .container .row-help #helper .form #send-form .forbidden .text a {
+  text-decoration: none;
+  color: #2F4B8F;
+}
+body #help .container .row-help #helper .form #send-form .forbidden #complete {
+  padding: 17.5px 122px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  border: 1px solid transparent;
+  text-align: center;
+  letter-spacing: -0.02em;
+  background: #EC2A87;
+  border-radius: 7px;
+  color: #FFFFFF;
+}
+body #help .container .row-help #helper .was-send .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body #help .container .row-help #helper .was-send .center img {
+  width: 108px;
+  height: 121px;
+}
+body #help .container .row-help #helper .was-send .center .title {
+  margin-top: 19px;
+  margin-bottom: 20px;
+  max-width: 239px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #101826;
+}
+body #help .container .row-help #helper .was-send .center .text {
+  font-family: Ubuntu, sans-serif;
+  max-width: 205px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 148%;
+  /* or 21px */
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 33px;
+  color: #101826;
+}
+body #help .container .row-help #helper .was-send .center a button {
+  box-shadow: 0px 8px 16px rgba(236, 42, 135, 0.57);
+  padding: 19px 55px;
+  border: 1px solid transparent;
+  background: #EC2A87;
+  border-radius: 7px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+body .terms {
+  padding-top: 105px;
+  margin: 25px 0px;
+}
+body .terms .title {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 130%;
+  /* identical to box height, or 47px */
+  letter-spacing: -0.02em;
+  color: #1B252E;
+}
+body .terms p {
+  margin: 30px 0;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  letter-spacing: -0.02em;
+  color: #5C6578;
+}
+body .error {
+  color: red !important;
+  font-size: 16px !important;
+}
+@media screen and (max-width: 576px) {
+  body #top {
+    padding: 15px;
+  }
+  body #help {
+    padding-top: 80px;
+  }
+  body #help .container .row-help #helper .title {
+    text-align: center;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name #regname {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email {
+    width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email #regemail {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .area {
+    margin-bottom: 15px;
+  }
+  body #help .container .row-help #helper .form #send-form .area #regtext {
+    height: 100px;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden #submit {
+    margin-top: 15px;
+    padding: 17.5px 0;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body #help {
+    padding-top: 80px;
+  }
+  body #help .container .row-help #helper .title {
+    text-align: center;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name #regname {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email {
+    width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email #regemail {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .area {
+    margin-bottom: 15px;
+  }
+  body #help .container .row-help #helper .form #send-form .area #regtext {
+    height: 100px;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden #submit {
+    margin-top: 15px;
+    padding: 17.5px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1198px) {
+  body #help {
+    padding-top: 80px;
+  }
+  body #help .container .row-help #helper .title {
+    text-align: center;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input {
+    display: flex;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name {
+    margin-bottom: 25px;
+    max-width: 240px;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .name #regname {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email {
+    max-width: 240px;
+  }
+  body #help .container .row-help #helper .form #send-form .line-input .email #regemail {
+    max-width: 100%;
+  }
+  body #help .container .row-help #helper .form #send-form .area {
+    margin-bottom: 15px;
+  }
+  body #help .container .row-help #helper .form #send-form .area #regtext {
+    height: 100px;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden {
+    align-items: center;
+  }
+  body #help .container .row-help #helper .form #send-form .forbidden #submit {
+    margin-top: 15px;
+    padding: 17.5px 50px;
+  }
+}
+@media screen and (min-width: 1198px) {
+  body #eight .container .eight-row .eight-right img {
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body #eight .container .eight-row .eight-right img {
+    margin-left: 75px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+  body #eight .container .eight-row .eight-right {
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=support.css.map */
